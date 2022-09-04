@@ -10,6 +10,7 @@ packages = [{include = "lab_riddler"}]
 python = "^3.10"
 fuzzywuzzy = "^0.18.0"
 python-Levenshtein = "^0.12.2"
+colorama = "^0.4.5"
 
 
 [build-system]

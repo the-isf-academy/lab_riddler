@@ -29,13 +29,5 @@ riddles = [
     Riddle(
         'What month of the year has 28 days?',
         'all of them'
-    ),
-    Riddle(
-        'What goes up but never comes down?',
-        'age'
-    ),
-    Riddle(
-        'What gets wet while drying?',
-        'a towel'
     )
 ]
