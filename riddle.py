@@ -9,7 +9,8 @@ class Riddle:
 
     def check_guess(self,guess):
         """Checks whether a guess is correct.
-        Uses the fuzzywuzzy library to accept guesses which are close to the answer.
+        Uses the fuzzywuzzy library to accept guesses which 
+        are close to the answer.
         """
         min_fuzz_ratio = 80
         similarity = fuzz.ratio(guess.lower(), self.answer.lower())
@@ -21,13 +22,8 @@ class Riddle:
     
  
 
-
-riddles = [
-    Riddle(
-        'What has to be broken before you can use it?',
-        'an egg'),
-    Riddle(
-        'What month of the year has 28 days?',
-        'all of them'
-    )
+riddle_list = [
+    
 ]
+
+

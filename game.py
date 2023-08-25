@@ -6,7 +6,7 @@
 ######################################################
 
 # Imports a list of Riddle objects from riddle.py
-from riddle import riddles
+from riddle import riddle_list
 
 def game_loop():
     '''This function runs the game.'''
