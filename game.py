@@ -5,19 +5,15 @@
 # feel free to customize it as you please.
 ######################################################
 
-# Imports a list of Riddle objects from riddle.py
+# Imports a list of Riddle objects from riddle_list.py
 from riddle import riddle_list
 
-def game_loop():
-    '''This function runs the game.'''
-
-    print("-"*35)
-    print("---- Welcome to the Riddler ----")
-    print("-"*35,"\n")
-
-   # 💻 YOUR CODE GOES BELOW HERE 💻 #
 
 
+print("-"*35)
+print("---- Welcome to the Riddler ----")
+print("-"*35,"\n")
 
-if __name__=='__main__':
-    game_loop()
+# 💻 YOUR CODE GOES BELOW HERE 💻 #
+
+

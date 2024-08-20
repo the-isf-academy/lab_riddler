@@ -1,6 +1,5 @@
 from fuzzywuzzy import fuzz
 
-
 class Riddle:
     def __init__(self,prompt,answer):
         self.prompt = prompt
@@ -12,6 +11,7 @@ class Riddle:
         Uses the fuzzywuzzy library to accept guesses which 
         are close to the answer.
         """
+        
         min_fuzz_ratio = 80
         similarity = fuzz.ratio(guess.lower(), self.answer.lower())
         
@@ -21,9 +21,4 @@ class Riddle:
             return False
     
  
-
-riddle_list = [
-    
-]
-
 
