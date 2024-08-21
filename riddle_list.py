@@ -1,7 +1,8 @@
 from riddle import Riddle
 
 
-riddrle_list = [
-    Riddle('What has to be broken before you can use it?','an egg'),
-    
+list_of_riddles = [
+    Riddle(
+        prompt = 'What has to be broken before you can use it?',
+        answer = 'an egg'),    
 ]

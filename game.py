@@ -6,7 +6,7 @@
 ######################################################
 
 # Imports a list of Riddle objects from riddle_list.py
-from riddle import riddle_list
+from riddle_list import list_of_riddles
 
 
 
@@ -15,5 +15,4 @@ print("---- Welcome to the Riddler ----")
 print("-"*35,"\n")
 
 # 💻 YOUR CODE GOES BELOW HERE 💻 #
-
 

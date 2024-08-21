@@ -5,7 +5,6 @@ class Riddle:
         self.prompt = prompt
         self.answer = answer
 
-
     def check_guess(self,guess):
         """Checks whether a guess is correct.
         Uses the fuzzywuzzy library to accept guesses which 
