@@ -9,7 +9,7 @@ packages = [{include = "lab_riddler"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 fuzzywuzzy = "^0.18.0"
-python-Levenshtein = "^0.12.2"
+Levenshtein = "^0.25.0"
 colorama = "^0.4.5"
 inquirerpy = "^0.3.4"
 
