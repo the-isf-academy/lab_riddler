@@ -20,3 +20,15 @@ class Riddle:
     
  
 
+if __name__ == "__main__":
+    r = Riddle(
+        prompt = 'What has to be broken before you can use it?', 
+        answer = 'an egg')
+    
+    print(r.prompt)
+
+    # TODO: print the answer
+  
+
+
+    # TODO: call check_guess() and print the return value
